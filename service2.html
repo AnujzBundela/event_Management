@@ -69,7 +69,7 @@
 <!-- event offer and services start -->
 <section class="eventOfferAndServices defaultPadding pt-0">
   <div class="container">
-    <h2 class="secH text-center" id="what-weoffer-title">What We Offer for Your <span id="what-weoffer-highlight-title">Baby Shower</span></h2>
+    <h2 class="secH text-center" id="service2-weoffer-title">What We Offer for Your <span id="service2-weoffer-highlight-title">Baby Shower</span></h2>
     <div class="PicWrap">
       <img loading="lazy" src="image/BabyShowerHighlights.webp" id="servicepage2-weoffer-image"  alt="Baby Shower">
       <div class="tabPanWrapper">
@@ -210,7 +210,8 @@
 <section class="callToAction BabyShowerPage0 defaultPadding">
   <div class="container">
     <h2 class="secH text-center" id="servicepage2-calltoaction-title">Let's Plan a Beautiful Baby Shower Together!</h2>
-    <p class="maxPara" id="servicepage2-calltoaction-description">Ready to celebrate a new beginning in the most heartwarming way? Get in touch with us today and let's start planning a baby shower that's as sweet and special as the little one on the way.</p>
+    <p class="maxPara" id="servicepage2-calltoaction-description">Ready to celebrate a new beginning in the most heartwarming way? Get in touch with us today and 
+      let's start planning a baby shower that's as sweet and special as the little one on the way.</p>
     <a class="Gradientbutton" href="contact.html" id="servicepage2-calltoaction-button">
        Let's Start Planning
       <span class="gradient-container">
@@ -266,7 +267,7 @@
         document.getElementById("servicepage2-description").textContent = data.servicepage2_description;
         document.getElementById("servicepage2-weoffer-image").src = data.servicepage2_weoffer_image;
 
-           
+        document.getElementById("service2-weoffer-title").textContent = data.servicepage2_weoffer_title;
         let HeaderText = document.getElementById("servicepage2-weoffer-title");
         // 1. Create the <span> element
         const mySpan = document.createElement('span');
