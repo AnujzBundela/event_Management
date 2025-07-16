@@ -1,0 +1,357 @@
+:root {
+  --primary-color: #2A00FF;     
+  --secondary-color: #A10DFD;   
+  --accentColour: #FF0A8C;      
+  --darkBg: #0D0221;
+  --sectionOverlay: #201a2be5;
+  --lightBg: #EBD5FF; 
+  --Grey: #9c9c9c;  
+  --greyText:#cccccc;  
+  --gradient: linear-gradient(135deg, #2A00FF 0%, #A10DFD 50%, #FF0A8C 100%);      
+  --TextGradient: linear-gradient(135deg, #467fe7 0%, #d490ff 50%, #f352a8 100%);      
+}
+
+@media (max-width: 1399.98px) {
+  
+}
+@media (max-width: 1199.98px) {
+  .display-2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+  }
+  .secH,
+  .thirdH {
+    line-height: 40px;
+  }
+  .secH {
+    font-size: 36px;
+  }
+  .thirdH {
+    font-size: 26px;
+  }
+
+}
+
+@media (max-width: 1024.98px) {
+  #ca1.owl-carousel .item1 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/BannerMOB3.webp") center/cover no-repeat;
+}
+#ca1.owl-carousel .item2 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/BannerMOB2.webp") center/cover no-repeat;
+}
+#ca1.owl-carousel .item3 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/BannerMOB1.webp") center/cover no-repeat;
+}
+
+}
+
+@media screen and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape) {
+  /* Styles for Google Nest Hub in landscape */
+ #ca1.owl-carousel .item1 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/Banner3.webp") center/cover no-repeat;
+}
+#ca1.owl-carousel .item2 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/Banner2.webp") center/cover no-repeat;
+}
+#ca1.owl-carousel .item3 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/Banner1.webp") center/cover no-repeat;
+}
+
+}
+
+
+
+@media (max-width: 991.98px) {
+
+
+  .display-2 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 54px;
+  }
+  .secH {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .thirdH {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+
+  .footer .container > .row {
+    row-gap: 30px;
+  }
+
+  .navLink {
+    color: var(--greyText);
+    padding: 12px 8px;
+}
+.navLink.active {
+  color: #ffffff;
+}
+.navMenu {
+  gap: 4px;
+}
+
+.extraBtn{
+  display: none;
+}
+
+.videoGallery .owl-nav button {
+  height: 50px;
+  width: 45px;
+}
+
+.videoGallery .owl-nav button span {
+  transform: translateY(-24px);
+}
+.videoGallery .owl-carousel .owl-nav button.owl-next, .videoGallery .owl-carousel .owl-nav button.owl-prev {
+    padding: 0 4px !important;
+    font-size: 60px;
+}
+
+.experienceBox {
+    margin-right: auto;
+    width: 94%;
+    margin-bottom: -80px;
+    z-index: 1;
+    margin-left: auto;
+}
+.WhyChoose .textPart {
+    padding: 20px;
+    padding-top: 80px;
+    background-color: var(--sectionOverlay);
+}
+
+.tabPanWrapper {
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: unset;
+    padding: 30px;
+    background-color: var(--sectionOverlay);
+}
+
+.absContain{
+  position: static;
+  transform: none;
+}
+.testimonialsSection .textPart{
+  padding: 12px;
+}
+.testimonialsSection{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.testimonialsCard{
+  flex-direction: column;
+  text-align: center;
+}
+.Avatar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUsSection {
+  background: url('../image/AboutSectionBackMob.webp') top/cover no-repeat;
+}
+.founderSection .container>.row{
+flex-direction: column-reverse;
+}
+.founderSection .textPart{
+  margin-right: unset;
+  padding: 20px;
+}
+}
+
+
+@media (max-width: 767.98px) {
+  .footer,
+  .footer .secH{
+    text-align: center;
+  }
+  .display-2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  .secH {
+    font-size: 28px;
+    line-height: 52px;
+  }
+  .thirdH {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .defaultPadding {
+    padding: 50px 0;
+  }
+  .footer.defaultPadding {
+    padding: 34px 0;
+  }
+  .footer .secH {
+    margin-bottom: 24px;
+  }
+  .footWrap > .row {
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    flex-direction: column;
+  }
+   .footer .social-icons {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer .exploreLinks ul li,
+  .footer .exploreLinks1 ul li {
+    text-align: left;
+  }
+  .footer-brand {
+    display: table !important;
+    margin: auto;
+  }
+  .footer .locationLink {
+    max-width: 304px;
+  }
+ 
+  .footer .exploreLinks1 ul {
+    max-width: 352px;
+    margin: auto;
+  }
+  .footer .exploreLinks ul {
+    width: 134px;
+    max-width: 134px !important;
+    margin: auto;
+  }
+  .footer ul.contact-info{
+    width: 318.5px;
+    max-width: 318.5px;
+  }
+
+  .footer.homePage0{
+    padding-top: 123px;
+  }
+
+  .Banner .owl-nav{
+    display: none;
+  }
+  .bannertext1 {
+    text-align: center;
+  }
+  .Banner  .Gradientbutton{
+margin-left: auto;
+margin-right: auto;
+}
+
+.categoriesSection .nav-pills {
+    justify-content: start;
+    margin-top: 40px;
+}
+    .tabPanWrapper {
+        padding: 16px;
+    }
+    .UlStyle {
+    margin-top: 16px;
+}
+.UlStyle li {
+  font-size: 14px;
+}
+.spanStyle {
+    margin-bottom: 0;
+}
+
+.mapSection iframe{
+  height: 500px;
+}
+
+.WhyChoose.EventPage{
+padding-top: 118.25px;
+}
+}
+
+@media (max-width: 575.98px) {
+ 
+
+  .footer .fourthH {
+    margin-bottom: 20px;
+  }
+
+  .UlStyle li {
+    width: 100%;
+}
+
+.nav-pills .nav-item{
+width: calc(50% - 12px);
+}
+.categoriesSection .nav-pills {
+    gap: 20px 24px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.nav-pills .nav-link.Gradientbutton{
+width: 100%;
+max-width: 100%;
+}
+
+ .grid-sizer,.grid-item{
+    width: 100%;                                                                              ;
+  }
+  .gutter-sizer { 
+    width: 0;
+  }
+
+}
+
+@media only screen and (max-height: 539.98px) {
+  #ca1.owl-carousel .item {
+    height: unset;
+  }
+  #ca1.owl-carousel .item > .container {
+    position: relative;
+    left: unset;
+    top: unset;
+    right: unset;
+    transform: unset;
+    width: auto;
+  }
+}
+
+@media only screen and (max-height: 539.98px) and (max-width: 1024px) {
+  #ca1.owl-carousel .item {
+    height: unset;
+  }
+  #ca1.owl-carousel .item > .container {
+   position: relative;
+    left: unset;
+    top: unset;
+    right: unset;
+    transform: unset;
+    width: auto;
+  }
+
+#ca1.owl-carousel .item1 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/Banner3.webp") center/cover no-repeat;
+}
+#ca1.owl-carousel .item2 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/Banner2.webp") center/cover no-repeat;
+}
+#ca1.owl-carousel .item3 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/Banner1.webp") center/cover no-repeat;
+}
+
+}
+
